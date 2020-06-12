@@ -1,6 +1,6 @@
 # zoom-statistics-only-employee
 Get statistics from Zoom and separates Student and Staff.\
-Results is in files, ex: *statistics-2020-01-01-2020-01-31.csv, statistics-2020-01-01-2020-01-31-only-employee.csv & employee.txt*
+Results is in files, ex: *statistics-2020-01-01-2020-01-31.csv, statistics-2020-01-01-2020-01-31-only-employee.csv & employee.txt*\
 Edit employee-groupid.py and add your groupId for employees only.
 >You can specify a monthly date range for the dashboard data using the from and to query parameters. The month should fall within the last six months, see more at https://marketplace.zoom.us/docs/api-reference/zoom-api/dashboards/dashboardmeetings
 
