@@ -6,7 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 sys.path.append('../')
 import secret
-import employee-groupid
+import groupid
 
 # generate JWT
 payload = {
@@ -20,7 +20,7 @@ psw = jwt_encoded[2:-1]
 conn = http.client.HTTPSConnection("api.zoom.us")
 headers = { 'authorization': "Bearer "+psw }
 
-conn.request("GET", "/v2/groups/"+employee-groupid.groupId+"/members?page_number=1&page_size=300", headers=headers)
+conn.request("GET", "/v2/groups/"+groupid.groupId+"/members?page_number=1&page_size=300", headers=headers)
 
 res = conn.getresponse()
 data = res.read()
@@ -43,7 +43,7 @@ while page_number != page_count:
     print(page_number+1)
     page_number = page_number+1
     
-    conn.request("GET", "/v2/groups/"+employee-groupid.groupId+"/members?page_number="+str(page_number)+"&page_size=300", headers=headers)
+    conn.request("GET", "/v2/groups/"+groupid.groupId+"/members?page_number="+str(page_number)+"&page_size=300", headers=headers)
     
     res = conn.getresponse()
     data = res.read()
