@@ -4,6 +4,7 @@ import sys
 import jwt
 from datetime import datetime
 from datetime import timedelta
+sys.path.append('../')
 import secret
 
 # generate JWT

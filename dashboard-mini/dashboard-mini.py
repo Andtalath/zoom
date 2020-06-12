@@ -3,6 +3,7 @@ import json
 import jwt
 import datetime
 from datetime import timedelta
+sys.path.append('../')
 import secret
 
 # generate JWT

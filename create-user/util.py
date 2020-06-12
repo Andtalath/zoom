@@ -6,6 +6,7 @@ import requests
 import jwt
 import pprint
 from colorama import Fore, Back, Style
+sys.path.append('../')
 import secret
 
 QUESTION = Fore.GREEN

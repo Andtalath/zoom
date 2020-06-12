@@ -5,6 +5,7 @@ import jwt
 import datetime
 from datetime import timedelta
 import time
+sys.path.append('../')
 import secret
 
 ll_test = datetime.datetime.now() - timedelta(days=100)
