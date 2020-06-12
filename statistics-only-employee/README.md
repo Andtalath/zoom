@@ -18,7 +18,3 @@ https://pip.pypa.io/en/stable/installing/
 `python get-statistics.py 2020-01-01 2020-01-31`\
 `python get-employee-members.py`\
 `python fix-statistics-to-employee-only.py statistics-2020-01-01-2020-01-31.csv`
-
-### Info
->This is Open Source and it´s free to use or change.\
-Use this script at **your own risk**. There is **no** support or help included.
