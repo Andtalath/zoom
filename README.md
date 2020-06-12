@@ -1,12 +1,12 @@
 # zoom
-This is api script for Zoom
+This is api scripts for Zoom
 
 ### api url
 * US = `api.zoom.us`
 * EU = `eu01web.zoom.us`
 
 ## Create JWT
-On *[Zoom Marketplace](https://marketplace.zoom.us/docs/guides/build/jwt-app)* create a JWT App 
+On *[Zoom Marketplace](https://marketplace.zoom.us/docs/guides/build/jwt-app)* create a JWT App\
 Edit secret.py and paste API key and secret from your Zoom JWT App
 
 ## Test JWT
@@ -21,4 +21,4 @@ https://pip.pypa.io/en/stable/installing/
 
 ### Info
 >This is Open Source and it´s free to use or change.\
-Use this script at **your own risk**. There is **no** support or help included.
+Use all this scripts at **your own risk**. There is **no** support or help included.
