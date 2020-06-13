@@ -25,4 +25,8 @@ res = conn.getresponse()
 data = res.read()
 raw_data = json.loads(data)
 
-print (raw_data)
+for groups in raw_data['groups']:
+    id = (user['id'])
+    name = (user['name'])
+    total_members = (user['total_members'])
+    print ("id=",id,"name=",name,"total members=",total_members)
