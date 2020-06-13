@@ -29,4 +29,5 @@ for groups in raw_data['groups']:
     id = (groups['id'])
     name = (groups['name'])
     total_members = (groups['total_members'])
-    print ("id=",id,"name=",name,"total members=",total_members)
+    text = "id="+id+" name="+name+" total members="+total_members)
+    print (text)
