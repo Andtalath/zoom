@@ -26,7 +26,7 @@ data = res.read()
 raw_data = json.loads(data)
 
 for groups in raw_data['groups']:
-    id = (user['id'])
-    name = (user['name'])
-    total_members = (user['total_members'])
+    id = (groups['id'])
+    name = (groups['name'])
+    total_members = (groups['total_members'])
     print ("id=",id,"name=",name,"total members=",total_members)
