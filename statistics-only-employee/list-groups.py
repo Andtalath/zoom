@@ -1,10 +1,6 @@
 import http.client
 import json
-import sys
 import jwt
-from datetime import datetime
-from datetime import timedelta
-import groupid
 sys.path.append('../')
 import secret
 
