@@ -12,6 +12,6 @@ https://www.python.org/downloads/
 * Install/Download pip
 https://pip.pypa.io/en/stable/installing/
 * Install deps:
-`pip install jwt`
+`pip install pyjwt`
 * Run the script:
 `python check-crc-license.py`
