@@ -15,7 +15,7 @@ https://www.python.org/downloads/
 * Install/Download pip
 https://pip.pypa.io/en/stable/installing/
 * Install deps:
-`pip install pyjwt`
+`pip install pyjwt` more info at https://pypi.org/project/PyJWT/
 * Run the script:
 `python test-jwt.py`
 
