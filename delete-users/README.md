@@ -14,7 +14,7 @@ You also need rights to your LDAP.
 https://www.python.org/downloads/
 * Install/Download pip
 https://pip.pypa.io/en/stable/installing/
-* Install deps:
+* Install deps:\
 `pip install pyjwt`\
 `pip install ldap3` more info at https://pypi.org/project/ldap3/
 * Run the script:
