@@ -1,8 +1,9 @@
-# EJ Klart
+# EJ Klart!!!
 
 # delete-users
 Delete all users that are basic, last-login-time more then 100 days and don´t exists in LDAP.\
-Results is in file delete-users.txt
+Results is in file delete-users.txt\
+You also need rights to your LDAP.
 
 ### api url
 * US = `api.zoom.us`
@@ -15,6 +16,6 @@ https://www.python.org/downloads/
 https://pip.pypa.io/en/stable/installing/
 * Install deps:
 `pip install pyjwt`
-`pip install pyjwt`
+`pip install ldap3`
 * Run the script:
 `python .....`
