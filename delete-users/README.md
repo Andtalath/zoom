@@ -1,7 +1,7 @@
 # EJ Klart!!!
 
 # delete-users
-Delete all users that are basic, last-login-time more then 100 days and don´t exists in LDAP.\
+Delete all users that are basic, last-login-time more then 365 days and don´t exists in LDAP.\
 Results is in file delete-users.txt\
 You also need rights to your LDAP.
 
