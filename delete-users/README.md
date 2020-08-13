@@ -3,7 +3,7 @@
 # delete-users
 Delete all users that are basic, last-login-time more then 365 days and don´t exists in LDAP.\
 Results is in file delete-users.txt\
-You also need rights to your LDAP.
+Edit ldapinfo.py with server info and rights to your LDAP.
 
 ### api url
 * US = `api.zoom.us`
