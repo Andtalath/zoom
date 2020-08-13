@@ -1,2 +1,3 @@
-test
-hej
+server = ''
+uid = ''
+psw = ''
