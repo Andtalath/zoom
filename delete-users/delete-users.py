@@ -36,3 +36,35 @@ conn.request("GET", "/v2/users?page_size=300", headers=headers)
 res = conn.getresponse()
 data = res.read()
 raw_data = json.loads(data)
+
+page_number = (raw_data['page_number'])
+page_count = (raw_data['page_count'])
+
+print("Page "+str(page_number)+" of "+str(page_count))
+time.sleep(0.5)
+
+with open('delete-users.txt', 'w') as f:
+    text ="e-mail\tfirst name\tlast name\ttype\tlast login time\tstatus"
+    #print(text)
+    f.write(text+"\n")
+
+with open('delete-users.txt', 'a') as f:
+    for user in raw_data['users']:
+        email = (user['email'])
+        fname = (user['first_name'])
+        lname = (user['last_name'])
+        ztype = (user['type'])
+
+        try:
+            user['last_login_time']
+        except:
+            llt_text = "Never logged in"
+            if ztype != 1:
+                old = "Check Manually"
+            else:
+                old = "OK"
+        else:
+            llt = datetime.datetime.strptime((user['last_login_time']), '%Y-%m-%dT%H:%M:%SZ')
+            llt_text = llt.strftime("%Y-%m-%d %H:%M:%S")
+            if ztype != 1 and llt < ll_test:
+                # Search for user in LDAP
