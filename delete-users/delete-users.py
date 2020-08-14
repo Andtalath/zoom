@@ -14,6 +14,8 @@ import secret
 server = Server(ldapinfo.server, get_info=ALL)
 conn = Connection(server, ldapinfo.uid, ldapinfo.psw, auto_bind=True)
 
+ll_test = datetime.datetime.now() - timedelta(days=365)
+
 # generate JWT
 payload = {
 'iss': secret.api_key,
