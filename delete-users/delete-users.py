@@ -26,7 +26,7 @@ jwt_encoded = str(jwt.encode(payload, secret.api_sec))
 jwt_encoded = jwt_encoded[2:]
 jwt_encoded = jwt_encoded[:-1]
 
-conn = http.client.HTTPSConnection("api.zoom.us")
+conn = http.client.HTTPSConnection("eu01web.zoom.us")
 
 headers = {
     'content-type': "application/json",
