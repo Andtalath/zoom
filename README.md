@@ -1,5 +1,5 @@
 # zoom
-This is api scripts for Zoom, using Python 3 with pip3
+This is api scripts for Zoom, using Python 3.6 (or later) with pip3
 
 ### api url
 * US = `api.zoom.us`
